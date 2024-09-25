@@ -65,6 +65,9 @@ Results were presented using visualizations to facilitate understanding.
 
 #### *Correlation*
 1. Excel
+
+   ![image](https://github.com/user-attachments/assets/f06f6599-2348-4a9a-83c0-353dfea9465f)
+ 
 - A combo chart with two Y-axes effectively illustrated the correlation between VIX and S&P 500 for 2023.
 - Negative values were highlighted in red for enhanced visualization.
 
