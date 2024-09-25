@@ -108,6 +108,9 @@ drawdowns = perf.prices.to_drawdown_series()
 drawdowns.plot()
 ```
 
+![image](https://github.com/user-attachments/assets/5e7a7d1f-435e-4a13-9154-2841c741562b)
+
+
 - A decline in VIX tends to coincide with a peak in SP500, and vice versa.
 - Currently, the SP500 is at its peak, suggesting potential vulnerability to a rise in VIX, which may lead to a decline in SP500.
 
