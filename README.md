@@ -61,7 +61,7 @@ write.csv(data,"/storage/emulated/0/Download/sp500_vix_20_24.csv",row.names = FA
 folder <- file.choose()
 ```
 
-*Data Cleaning*: Raw data in CSV format was cleaned by removing rows with NA values due to public holidays.
+*Data Cleaning*: Raw data in [CSV](https://github.com/BrianZharare/Stock-price-Analysis/commit/92e9fa2cece09a86ef553ee58116d9d80b88ec99) format was cleaned by removing rows with NA values due to public holidays.
 
 
 *Data Design*: Data was organized for analysis.
