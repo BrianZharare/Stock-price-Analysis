@@ -88,7 +88,7 @@ Key findings:
 - *Mean VIX*: 21.88, indicating that a reading below 12 is rare.
 - *Median VIX*: 20.34, this value is not influenced by extreme values that may have occurred briefly. 
 - *Mode VIX*: 12.85, the most frequent reading and it may **seem** that a reading below 12 may be very common. This is not enough to make that conclusion by the way. 
-- *Max/Min VIX*: 82.69 and 8.86, respectively. This shows that VIX has clearly gone below 12 but more analysis needs to conducted. 
+- *Max/Min VIX*: 82.69 and 11.86, respectively. This shows that VIX has clearly gone below 12 but more analysis needs to conducted. 
 
 *Correlation Analysis (only data for the year 2023 was used)*
 
