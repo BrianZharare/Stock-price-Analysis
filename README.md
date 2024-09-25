@@ -81,6 +81,8 @@ folder <- file.choose()
 
 [Click here](https://github.com/BrianZharare/Stock-price-Analysis/commit/c70fe7596edc13f3397cf5cb51b59e9bc849d1a7) to access the Excel Workbook containing some data analysis insights. 
 
+![image](https://github.com/user-attachments/assets/4b8b2935-ff5d-419d-85de-4a6d4d5d40fa)
+
 Key findings:
 
 - *Mean VIX*: 21.88, indicating that a reading below 12 is rare.
