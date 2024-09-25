@@ -85,7 +85,9 @@ prices
 #plotting the correlation chart
 perf = prices.calc_stats()
 perf.plot_correlation()
-``` 
+```
+![image](https://github.com/user-attachments/assets/a9d721bc-a0a8-4c3d-b01b-077a729a7af7)
+
 Utilizing the ffn library, we visualized the relationship between the S&P 500 (SP500) and the CBOE Volatility Index (VIX) through a heatmap. The correlation coefficient of -0.7 over the entire dataset indicates a strong negative correlation, substantiating the notion that these two variables are inversely related.
 
 #### *Performance Evaluation*
