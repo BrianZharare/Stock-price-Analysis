@@ -12,9 +12,12 @@
 
 The recent historic lows in the CBOE Volatility Index (VIX) in June, reaching 11.94 on June 13th, have sparked concerns among stakeholders about the potential for a significant market downturn. Various financial publications have suggested that this decreased volatility may indicate investor complacency, prompting worries about the risks of staying invested in stocks. The S&P 500 index (GSPC), a widely followed benchmark, is often cited as a key influencer of VIX fluctuations. This raises important questions: Is the anticipated VIX spike supported by empirical evidence, or is it merely speculative? Does the relationship between S&P 500 and VIX warrant caution, or are stakeholders overreacting? This project seeks to provide a descriptive analysis of the S&P 500 and VIX, exploring their historical dynamics and shedding light on the validity of these concerns.
 
+
 ## *Methodology*
 
 This project employed the Ask, Prepare, Process, Analyze, Share (APPS) framework.
+
+
 
 ### **1. Ask**
 
@@ -22,6 +25,8 @@ The research questions guiding this study were:
 
 - What is the relationship between the S&P 500 and VIX?
 - How rare are VIX readings below 12?
+
+
 
 ### **2. Prepare**
 
@@ -33,6 +38,8 @@ To address these questions, the following steps were taken:
 
 
 *Tools*: Python and R programming languages were used for data extraction and visualizations, while Excel facilitated data design, cleaning, auditing, analysis, and visualization.
+
+
 
 ### **3. Process**
 
@@ -69,18 +76,23 @@ folder <- file.choose()
 *Data Audit*: Pivot tables ensured data integrity, verifying years, months, and trading days.
 
 
+
 ### **4. Analysis**
+
+[Click here](https://github.com/BrianZharare/Stock-price-Analysis/commit/c70fe7596edc13f3397cf5cb51b59e9bc849d1a7) to access the Excel Workbook containing some data analysis insights. 
 
 Key findings:
 
-- *Mean VIX*: 21.88, indicating that readings below 12 are rare.
-- *Median VIX*: 20.34, less influenced by extreme values.
-- *Mode VIX*: 12.85, the most frequent reading.
-- *Max/Min VIX*: 82.69 and 8.86, respectively.
+- *Mean VIX*: 21.88, indicating that a reading below 12 is rare.
+- *Median VIX*: 20.34, this value is not influenced by extreme values that may have occurred briefly. 
+- *Mode VIX*: 12.85, the most frequent reading and it may **seem** that a reading below 12 may be very common. This is not enough to make that conclusion by the way. 
+- *Max/Min VIX*: 82.69 and 8.86, respectively. This shows that VIX has clearly gone below 12 but more analysis needs to conducted. 
 
-*Correlation Analysis (2023)*
+*Correlation Analysis (only data for the year 2023 was used)*
 
 *Correlation Coefficient*: -0.88, indicating a strong negative relationship between VIX and S&P 500.
+
+
 
 ### **5. Share**
 
