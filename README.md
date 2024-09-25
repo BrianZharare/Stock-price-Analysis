@@ -94,6 +94,9 @@ Utilizing the ffn library, we visualized the relationship between the S&P 500 (S
 #plotting the performance plot
 perf.plot()
 ```
+
+![image](https://github.com/user-attachments/assets/79225040-33c7-4980-a631-046e16abac63)
+
 The performance plot, generated using ffn, effectively communicates the growth trajectory of the investment portfolio’s value over time. Notably, the SP500 exhibits steady growth despite fluctuations in the VIX over the years, underscoring its resilience.
 
 
