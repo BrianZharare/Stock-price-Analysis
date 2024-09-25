@@ -38,6 +38,29 @@ To address these questions, the following steps were taken:
 
 *Data Extraction*: Data was retrieved from Yahoo Finance. To visit the website, [click here](https://finance.yahoo.com)
 
+The R code used to extract raw data from Yahoo Finance:
+```r
+install.packages("quantmod")
+library(quantmod)
+
+sp500 <- getSymbols.yahoo ("^GSPC", from ="2020-01-01-",to ="2024-06-30",auto.assign =FALSE)
+vix <- getSymbols.yahoo ("^VIX", from ="2020-01-01",to = "2024-06-30",auto.assign =FALSE)
+head(vix)
+
+sp500_df <- data.frame(Date=index(sp500), SP500 = sp500[, 4])
+head(sp500_df)
+vix_df <- data.frame(Date=index(vix), VIX = vix[, 4]) 
+
+data <- merge(sp500_df,vix_df,by = "Date", all = "TRUE") 
+
+write.csv(data, "sp500_vix_data_20_24.csv",row.names = FALSE)
+
+data <- read.csv("sp500_vix_data_20_24.csv")
+
+write.csv(data,"/storage/emulated/0/Download/sp500_vix_20_24.csv",row.names = FALSE)
+folder <- file.choose()
+```
+
 *Data Cleaning*: Raw data in CSV format was cleaned by removing rows with NA values due to public holidays.
 
 
